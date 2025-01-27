@@ -1,0 +1,70 @@
+/* Container for the entire form */
+.diagram-form {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Textarea styling */
+.diagram-form textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.diagram-form textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Submit button styling */
+.diagram-form button {
+  padding: 12px 25px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.diagram-form button:hover {
+  background-color: #45a049;
+}
+
+/* Chart container */
+.chart-output {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.chart-output h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .diagram-form {
+    padding: 15px;
+  }
+
+  .diagram-form textarea {
+    height: 120px;
+  }
+
+  .diagram-form button {
+    width: 100%;
+  }
+}
